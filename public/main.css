@@ -5,7 +5,8 @@ html {
   background: url(images/hex_bg.jpg) fixed no-repeat center;
   background-size: cover;
   color: #fff;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: Roboto, sans-serif; }
   html body {
     margin: 0 0 30px; }
 
