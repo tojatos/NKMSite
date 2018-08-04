@@ -1,6 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<main>
-  <?= $main_nav ?>
-  <?= $content ?>
-</div>
+ <?= $main_nav ?>
+<main class="main">
+  <section class="content"> <?= $content ?> </section>
 </main>

@@ -6,6 +6,6 @@ class Main extends MY_controller{
 	public function index()
 	{
 		$this->load->helper('url');
-		$this->show_main_view(['content' => 'main_view_content']);
+		$this->show_main_view(['content' => $this->get_view("main")]);
 	}
 }
