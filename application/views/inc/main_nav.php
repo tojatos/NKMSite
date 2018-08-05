@@ -7,6 +7,7 @@
 	<a href=<?= base_url("About") ?> class="nav_link">O grze</a>
 	<a href=<?= base_url("Gallery") ?> class="nav_link">Galeria</a>
 	<a href=<?= base_url("CharacterQueue") ?> class="nav_link">Kolejka postaci</a>
+	<a href=<?= base_url("Download") ?> class="nav_link">Pobierz</a>
   </div>
   <div class="right"></div>
 </nav>
