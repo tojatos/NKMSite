@@ -33,6 +33,29 @@ a.nav_link {
   a.nav_link:hover {
     color: #dedede; }
 
+div.form_split {
+  display: flex; }
+
+form.main_form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px; }
+  form.main_form h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px; }
+  form.main_form input {
+    background: #2e2e2e;
+    color: gold;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #3e3e3e; }
+    form.main_form input::placeholder {
+      color: white; }
+    form.main_form input[type=submit] {
+      color: white; }
+
 html {
   position: relative;
   min-height: 100%;
@@ -40,7 +63,8 @@ html {
   background-size: cover;
   color: #fff;
   font-size: 20px;
-  font-family: Roboto, sans-serif; }
+  font-family: Roboto, sans-serif;
+  cursor: default; }
   html body {
     margin: 0 0 30px; }
 

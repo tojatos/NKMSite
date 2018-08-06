@@ -9,5 +9,7 @@
 	<a href=<?= base_url("CharacterQueue") ?> class="nav_link">Kolejka postaci</a>
 	<a href=<?= base_url("Download") ?> class="nav_link">Pobierz</a>
   </div>
-  <div class="right"></div>
+  <div class="right">
+	<a href=<?= base_url("Login") ?> class="nav_link">Zaloguj się</a>
+  </div>
 </nav>
