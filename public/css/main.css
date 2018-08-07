@@ -45,16 +45,18 @@ form.main_form {
     text-align: center;
     margin: 0;
     padding-bottom: 20px; }
-  form.main_form input {
+  form.main_form input, form.main_form textarea {
     background: #2e2e2e;
     color: gold;
     padding: 5px;
     margin: 5px;
-    border: 1px solid #3e3e3e; }
-    form.main_form input::placeholder {
+    border: 1px solid #3e3e3e;
+    resize: vertical; }
+    form.main_form input::placeholder, form.main_form textarea::placeholder {
       color: white; }
-    form.main_form input[type=submit] {
-      color: white; }
+    form.main_form input[type=submit], form.main_form textarea[type=submit] {
+      color: white;
+      cursor: pointer; }
 
 html {
   position: relative;
