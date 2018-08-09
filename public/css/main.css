@@ -38,6 +38,7 @@ div.form_split {
 
 form.main_form {
   flex-grow: 1;
+  flex-basis: 0;
   display: flex;
   flex-direction: column;
   margin: 0 40px; }
@@ -45,10 +46,13 @@ form.main_form {
     text-align: center;
     margin: 0;
     padding-bottom: 20px; }
+  form.main_form label {
+    font-size: 18px;
+    margin: 10px 10px 0 10px; }
   form.main_form input, form.main_form textarea {
     background: #2e2e2e;
     color: gold;
-    padding: 5px;
+    padding: 7px;
     margin: 5px;
     border: 1px solid #3e3e3e;
     resize: vertical; }
@@ -56,7 +60,10 @@ form.main_form {
       color: white; }
     form.main_form input[type=submit], form.main_form textarea[type=submit] {
       color: white;
-      cursor: pointer; }
+      cursor: pointer;
+      padding: 20px; }
+  form.main_form div {
+    max-width: 500px; }
 
 html {
   position: relative;
@@ -98,5 +105,17 @@ h1 {
 
 .nkm_logo {
   background: url(../images/NKM_Logo.png) no-repeat center; }
+
+.correct {
+  background: green;
+  padding: 10px;
+  margin: 5px;
+  border: 3px solid darkgreen; }
+
+.wrong, .form-error {
+  background: red;
+  padding: 10px;
+  margin: 5px;
+  border: 3px solid darkred; }
 
 /*# sourceMappingURL=main.css.map */

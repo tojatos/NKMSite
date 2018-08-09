@@ -2,6 +2,7 @@ div.form_split
   display: flex
 form.main_form
   flex-grow: 1
+  flex-basis: 0
   display: flex
   flex-direction: column
   margin: 0 40px
@@ -9,15 +10,24 @@ form.main_form
     text-align: center
     margin: 0
     padding-bottom: 20px
+  label
+    font-size: 18px
+    margin: 10px 10px 0 10px
   input, textarea
     &::placeholder
       color: white
     &[type=submit]
       color: white
       cursor: pointer
+      padding: 20px
+    // &:focus:valid
+        border-color: green
     background: #2e2e2e
     color: gold
-    padding: 5px
+    padding: 7px
     margin: 5px
     border: 1px solid #3e3e3e
     resize: vertical
+  div
+    max-width: 500px
+    
